@@ -295,6 +295,7 @@ new ScrollMagic
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script>
 ```
+### 랜덤한 숫자를 생성하는 함수
 
 ```js
 // 범위 랜덤 함수(소수점 2자리까지)
