@@ -1,4 +1,5 @@
 # Starbucks
 
-![Starbucks](https://cosmic-croquembouche-86fbcf.netlify.app/)
-[Starbucks 사이트로 이동하기](https://cosmic-croquembouche-86fbcf.netlify.app/)
+## 페이지로 이동 ⬇
+
+[![Starbucks](https://raw.githubusercontent.com/ParkYoungWoong/starbucks-vanilla-app/master/_assets/main_screenshot.jpg)](https://cosmic-croquembouche-86fbcf.netlify.app/)
