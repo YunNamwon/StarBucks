@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Starbucks Coffee</title>
+  <title>회원가입</title>
 
   <!-- 웹페이지가 소셜 미디어(카톡,페북 등)로 공유될 때 활용되는 정보 지정 (Open Graph protocol) -->
   <meta property="og:type" content="website">
@@ -28,10 +28,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <!-- 직접 작성하는 css는 마지막-->
-  <link rel="stylesheet" href="../css/common.css">
-  <link rel="stylesheet" href="../css/signin.css">
+  <link rel="stylesheet" href="/css/common.css">
+  <link rel="stylesheet" href="/css/signup.css">
   
-  <script defer src = "../js/common.js"></script>
+  <script defer src = "/js/common.js"></script>
 </head>
 <body>
   <!--HEADER-->
@@ -39,7 +39,7 @@
     <div class="inner">
 
       <a href="/" class="logo">
-        <img src="../images/starbucks_logo.png" alt="STARBUCKS"/>
+        <img src="/images/starbucks_logo.png" alt="STARBUCKS"/>
       </a>
 
       <div class="sub-menu">
@@ -365,26 +365,25 @@
     </div>
   </header>
 
-  <section class="signin">
-    <h1>로그인</h1>
-    <div class="signin__card">
+  <section class="signup">
+    <h1>회원가입</h1>
+    <div class="signup__card">
       <h2>
-        <strong>Welcome!</strong> 스타벅스에 오신 것을 환영합니다.
+        이미 계정이 있습니까? <strong><a href = /signin/index.html>로그인</a></strong>
       </h2>
-      <form>
-        <input type="text" placeholder="아이디를 입력하세요." />
-        <input type="password" placeholder="비밀번호를 입력하세요." />
-        <input type="submit" value="로그인" />
+
+      <form method="post" action="">
+        <input type="text" name="id" placeholder="아이디" />
+        <input type="text" name="name" placeholder="이름" />
+        <input type="text" name="age" placeholder="나이" />
+        <input type="password" name ="password" placeholder="비밀번호" />
+        <input type="submit" value="회원가입" />
         <p>
           * 비밀번호를 타 사이트와 같이 사용할 경우 도용 위험이 있으니 <br>
                    정기적으로 비밀번호를 변경하세요!
         </p>
       </form>
-      <div class="action">
-        <a href="/signup/adduser.html">회원가입</a>
-        <a href="javascript:void(0)">아이디 찾기</a>
-        <a href="javascript:void(0)">비밀번호 찾기</a>
-      </div>
+
     </div>
 
 
